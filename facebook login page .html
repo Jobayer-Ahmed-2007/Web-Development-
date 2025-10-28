@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login page .css">
+    <title>facebook.com</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+}
+.container{
+    margin: 250px 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.leftpart{
+    width: 40%;
+
+}
+h1{
+    color: royalblue;
+    font-size: 80px;
+}
+h3{
+    column-rule-color: black ;
+    font-size: 30px;
+
+}
+.rightpart{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.loginpage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    width: 450px;
+    height: 370px;
+    box-shadow: -10px -10px 15px rgba(0,0,0,0.1),
+    10px 10px 15px rgba(0,0,0,0.1);
+    border-radius: 10px;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: ceneter;
+    align-items: center;
+    padding: 15px,0px;
+}
+input{
+    width: 380px;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+    outline:none;
+    border: 1 px solid black;
+    font-size: 18px;
+    border-radius: 10px;
+
+}
+input[type="submit"]{
+    background-color: rgb(3, 60, 230);
+}
+p{
+    color: royalblue;
+}
+hr{
+    border: 1px solid gray;
+    width: 320px;
+    margin: 15px;
+}
+.createaccount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: green;
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: 30px;
+    color: #fff;
+}
+span{
+    margin: 15px;
+    font-size: 19px;
+}
+    </style>
+</head>
+
+<body> 
+    <div class="container">
+        <div class="leftpart">
+            <h1>facebook</h1>
+            <h3>Facebook helps you connect and share with the people in your life 
+            </h3>       
+        </div>
+        <div class="rightpart">
+            <div class="loginpage">
+                <form > 
+                    <input type="text" placeholder="Enter email address or phone number ">
+                    <input type="password" placeholder=" Password">
+                    <input type="submit">
+                </form>
+                <p>Forggoten password ?</p>
+                <hr>
+                <div class="createaccount">
+                   create a new acoount 
+                </div> 
+            </div>
+            <span> create a page for a celebrity,brand or business</span>
+
+        </div>
+
+    </div>
+</body>
+</html>
