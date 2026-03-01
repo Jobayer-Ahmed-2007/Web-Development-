@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>My Simple Website</h1>
+
+    <!-- Form -->
+    <section>
+        <h2>Contact Form</h2>
+        <form>
+            <label>Name:</label><br>
+            <input type="text" placeholder="Enter your name"><br><br>
+
+            <label>Email:</label><br>
+            <input type="email" placeholder="Enter your email"><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <!-- Table -->
+    <section>
+        <h2>Student Table</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Roll</th>
+                <th>Grade</th>
+            </tr>
+            <tr>
+                <td>Hasan</td>
+                <td>811***</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Hosain</td>
+                <td>811***</td>
+                <td>B</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Iframe -->
+    <section>
+        <h2>Iframe Example</h2>
+    <iframe width="560" height="316" src="https://www.youtube.com/embed/OlZdJF8P8AQ?si=nHVuyo258Fz_maWD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+</body>
+</html>
